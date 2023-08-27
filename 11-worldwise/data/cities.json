@@ -25,40 +25,40 @@
       "id": 17806751
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Saint-Sauvant",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-07-30T05:49:47.000Z",
+      "notes": "bla bla",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "46.34692761055676",
+        "lng": "0.087890625"
       },
-      "id": 98443197
+      "id": 98443199
     },
     {
-      "cityName": "Faro",
-      "country": "Portugal",
-      "emoji": "PT",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Djezzar, Algeria",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2023-08-27T05:59:37.664Z",
+      "notes": "abc",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": "35.567980458012094",
+        "lng": "5.3173828125"
       },
-      "id": 73930385
+      "id": 98443200
     },
     {
-      "cityName": "Barcelona",
-      "country": "Spain",
-      "emoji": "ES",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Caltanissetta",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2023-08-27T06:02:06.889Z",
+      "notes": "test",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "37.42252593456307",
+        "lng": "13.886718750000002"
       },
-      "id": 343434343
+      "id": 98443201
     }
   ]
 }

@@ -2,14 +2,17 @@ import Spinner from './Spinner'
 import styles from './CityList.module.css';
 import CityItem from './CityItem';
 import Message from './Message';
+import { useCities } from '../contexts/CitiesContext';
 import PropTypes from 'prop-types';
 
 CityList.propTypes = {
-  cities: PropTypes.array.isRequired,
-  isLoading: PropTypes.bool.isRequired,
+  cities: PropTypes.array,
+  isLoading: PropTypes.bool,
 };
 
-export default function CityList({cities, isLoading}) {
+export default function CityList() {
+
+  const {cities, isLoading} = useCities();
   //console.log(cities, isLoading);
   if(isLoading) return <Spinner/>
 
@@ -17,7 +20,7 @@ export default function CityList({cities, isLoading}) {
 
   return (
     <ul className={styles.cityList}>
-      {cities.map(city => <CityItem city={city} key={city}/>)}
+      {cities.map(city => <CityItem city={city} key={city.id}/>)}
     </ul>
   )
 }

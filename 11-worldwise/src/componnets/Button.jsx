@@ -2,8 +2,8 @@ import styles from './Button.module.css'
 import PropTypes from 'prop-types';
 
 Button.propTypes = {
-  children: PropTypes.array.isRequired,
-  onClick: PropTypes.function,
+  children: PropTypes.any,
+  onClick: PropTypes.any,
   type: PropTypes.string,
 };
 
