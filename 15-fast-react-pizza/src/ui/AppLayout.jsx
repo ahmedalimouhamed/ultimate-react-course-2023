@@ -8,15 +8,15 @@ export default function AppLayout() {
   const isLoading = navigation.state === 'loading';
 
   return (
-    <div className="layout">
+    <div className="grid h-screen grid-rows-[auto_1fr_auto]">
       {isLoading && <Loader/>}
 
       <Header/>
-
-      <min>
-        <h1>Content</h1>
-        <Outlet/>
-      </min>
+      <div className="oerflow-scroll">
+        <main className="max-w-3xl mx-auto">
+          <Outlet/>
+        </main>
+      </div>
       <CartOverview/>
     </div>
   )
